@@ -42,7 +42,15 @@ def _engine():
 
 @st.cache_data(ttl=3600)
 def _load(ticker: str) -> pd.DataFrame:
-    return load_prices(_engine(), ticker)
+    df = load_prices(_engine(), ticker)
+    if df.empty:
+        # First time this ticker's been asked for on this server (e.g. a
+        # fresh Streamlit Cloud deployment with no local data yet) --
+        # fetch it on the spot rather than erroring out.
+        from src.data.fetch import update_ticker
+        update_ticker(_engine(), ticker, full=True)
+        df = load_prices(_engine(), ticker)
+    return df
 
 
 st.title("Futures & Index ML Explorer")
