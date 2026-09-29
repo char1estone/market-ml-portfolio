@@ -1,5 +1,7 @@
 # Futures & Index ML Explorer
 
+**[Live dashboard →](https://market-ml-portfolio-atfgeiesn94jfa2agikivn.streamlit.app/)**
+
 A small, end-to-end project on S&P 500 / Nasdaq futures: a data pipeline,
 technical-indicator features, a direction-classification model validated
 the way time series actually needs to be validated, and a cost-aware
