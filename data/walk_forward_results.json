@@ -1,0 +1,222 @@
+[
+  {
+    "model_name": "baseline_persistence",
+    "train_end": "2011-07-13",
+    "test_end": "2014-07-28",
+    "n_train": 2547,
+    "n_test": 764,
+    "accuracy": 0.5157068062827225,
+    "precision": 0.5707656612529002,
+    "recall": 0.5707656612529002,
+    "f1": 0.5707656612529002
+  },
+  {
+    "model_name": "baseline_majority_class",
+    "train_end": "2011-07-13",
+    "test_end": "2014-07-28",
+    "n_train": 2547,
+    "n_test": 764,
+    "accuracy": 0.5641361256544503,
+    "precision": 0.5641361256544503,
+    "recall": 1.0,
+    "f1": 0.7213389121338912
+  },
+  {
+    "model_name": "logistic_regression",
+    "train_end": "2011-07-13",
+    "test_end": "2014-07-28",
+    "n_train": 2547,
+    "n_test": 764,
+    "accuracy": 0.56282722513089,
+    "precision": 0.5663474692202463,
+    "recall": 0.9605568445475638,
+    "f1": 0.7125645438898451
+  },
+  {
+    "model_name": "random_forest",
+    "train_end": "2011-07-13",
+    "test_end": "2014-07-28",
+    "n_train": 2547,
+    "n_test": 764,
+    "accuracy": 0.5261780104712042,
+    "precision": 0.5548489666136724,
+    "recall": 0.8097447795823666,
+    "f1": 0.6584905660377358
+  },
+  {
+    "model_name": "baseline_persistence",
+    "train_end": "2014-07-28",
+    "test_end": "2017-08-10",
+    "n_train": 3311,
+    "n_test": 764,
+    "accuracy": 0.45157068062827227,
+    "precision": 0.45714285714285713,
+    "recall": 0.45595854922279794,
+    "f1": 0.4565499351491569
+  },
+  {
+    "model_name": "baseline_majority_class",
+    "train_end": "2014-07-28",
+    "test_end": "2017-08-10",
+    "n_train": 3311,
+    "n_test": 764,
+    "accuracy": 0.5052356020942408,
+    "precision": 0.5052356020942408,
+    "recall": 1.0,
+    "f1": 0.671304347826087
+  },
+  {
+    "model_name": "logistic_regression",
+    "train_end": "2014-07-28",
+    "test_end": "2017-08-10",
+    "n_train": 3311,
+    "n_test": 764,
+    "accuracy": 0.5039267015706806,
+    "precision": 0.5048143053645117,
+    "recall": 0.9507772020725389,
+    "f1": 0.6594788858939802
+  },
+  {
+    "model_name": "random_forest",
+    "train_end": "2014-07-28",
+    "test_end": "2017-08-10",
+    "n_train": 3311,
+    "n_test": 764,
+    "accuracy": 0.5091623036649214,
+    "precision": 0.5081967213114754,
+    "recall": 0.883419689119171,
+    "f1": 0.6452223273415326
+  },
+  {
+    "model_name": "baseline_persistence",
+    "train_end": "2017-08-10",
+    "test_end": "2020-08-24",
+    "n_train": 4075,
+    "n_test": 764,
+    "accuracy": 0.4869109947643979,
+    "precision": 0.5504587155963303,
+    "recall": 0.5504587155963303,
+    "f1": 0.5504587155963303
+  },
+  {
+    "model_name": "baseline_majority_class",
+    "train_end": "2017-08-10",
+    "test_end": "2020-08-24",
+    "n_train": 4075,
+    "n_test": 764,
+    "accuracy": 0.5706806282722513,
+    "precision": 0.5706806282722513,
+    "recall": 1.0,
+    "f1": 0.7266666666666667
+  },
+  {
+    "model_name": "logistic_regression",
+    "train_end": "2017-08-10",
+    "test_end": "2020-08-24",
+    "n_train": 4075,
+    "n_test": 764,
+    "accuracy": 0.5732984293193717,
+    "precision": 0.5828313253012049,
+    "recall": 0.8876146788990825,
+    "f1": 0.7036363636363636
+  },
+  {
+    "model_name": "random_forest",
+    "train_end": "2017-08-10",
+    "test_end": "2020-08-24",
+    "n_train": 4075,
+    "n_test": 764,
+    "accuracy": 0.49345549738219896,
+    "precision": 0.5533769063180828,
+    "recall": 0.5825688073394495,
+    "f1": 0.5675977653631284
+  },
+  {
+    "model_name": "baseline_persistence",
+    "train_end": "2020-08-24",
+    "test_end": "2023-09-07",
+    "n_train": 4839,
+    "n_test": 764,
+    "accuracy": 0.49214659685863876,
+    "precision": 0.5063613231552163,
+    "recall": 0.5063613231552163,
+    "f1": 0.5063613231552163
+  },
+  {
+    "model_name": "baseline_majority_class",
+    "train_end": "2020-08-24",
+    "test_end": "2023-09-07",
+    "n_train": 4839,
+    "n_test": 764,
+    "accuracy": 0.5143979057591623,
+    "precision": 0.5143979057591623,
+    "recall": 1.0,
+    "f1": 0.6793431287813311
+  },
+  {
+    "model_name": "logistic_regression",
+    "train_end": "2020-08-24",
+    "test_end": "2023-09-07",
+    "n_train": 4839,
+    "n_test": 764,
+    "accuracy": 0.5170157068062827,
+    "precision": 0.5171428571428571,
+    "recall": 0.9211195928753181,
+    "f1": 0.6623970722781336
+  },
+  {
+    "model_name": "random_forest",
+    "train_end": "2020-08-24",
+    "test_end": "2023-09-07",
+    "n_train": 4839,
+    "n_test": 764,
+    "accuracy": 0.5157068062827225,
+    "precision": 0.516642547033285,
+    "recall": 0.9083969465648855,
+    "f1": 0.6586715867158671
+  },
+  {
+    "model_name": "baseline_persistence",
+    "train_end": "2023-09-07",
+    "test_end": "2026-09-22",
+    "n_train": 5603,
+    "n_test": 765,
+    "accuracy": 0.5111111111111111,
+    "precision": 0.5558194774346793,
+    "recall": 0.5558194774346793,
+    "f1": 0.5558194774346793
+  },
+  {
+    "model_name": "baseline_majority_class",
+    "train_end": "2023-09-07",
+    "test_end": "2026-09-22",
+    "n_train": 5603,
+    "n_test": 765,
+    "accuracy": 0.550326797385621,
+    "precision": 0.550326797385621,
+    "recall": 1.0,
+    "f1": 0.7099494097807757
+  },
+  {
+    "model_name": "logistic_regression",
+    "train_end": "2023-09-07",
+    "test_end": "2026-09-22",
+    "n_train": 5603,
+    "n_test": 765,
+    "accuracy": 0.5464052287581699,
+    "precision": 0.548941798941799,
+    "recall": 0.9857482185273159,
+    "f1": 0.7051826677994902
+  },
+  {
+    "model_name": "random_forest",
+    "train_end": "2023-09-07",
+    "test_end": "2026-09-22",
+    "n_train": 5603,
+    "n_test": 765,
+    "accuracy": 0.5228758169934641,
+    "precision": 0.5415430267062314,
+    "recall": 0.8669833729216152,
+    "f1": 0.6666666666666666
+  }
+]

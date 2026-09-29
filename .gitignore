@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+data/*.db
+data/*.sqlite
+data/raw/
+data/processed/
+.DS_Store
+.streamlit/secrets.toml
+*.log
